@@ -88,6 +88,11 @@
 				}, (i+1)*100);
 			}
 		}
+
+		document.addEventListener("WeixinJSBridgeReady", function () {
+			document.getElementById('bgmMusic').play();
+		}, false);
+		document.getElementById('bgmMusic').play();
 	</script>
   <div>
   </div>
